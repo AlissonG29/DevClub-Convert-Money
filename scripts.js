@@ -13,7 +13,7 @@ const convertValues = async () => {
   const bitcoin = data.BTCBRL.high
 
   currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR",{
-    style: "currency",
+    style: "currency", 
     currency: "BRL"
   }).format(inputCurrencyValue);
 
